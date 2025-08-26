@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Maciel | Portfólio Gamer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700;900&family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+    
+    <!-- Efeito de partículas -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Barra de loading estilo jogo -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <h2>CARREGANDO PORTFÓLIO</h2>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <p>Inicializando sistemas...</p>
+        </div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <span class="pixel-text">MIGUEL_MACIEL</span>
+                <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-btn"><span class="pixel-icon">></span> SOBRE</a></li>
+                    <li><a href="#projects" class="nav-btn"><span class="pixel-icon">></span> PROJETOS</a></li>
+                    <li><a href="#skills" class="nav-btn"><span class="pixel-icon">></span> HABILIDADES</a></li>
+                    <li><a href="#contact" class="nav-btn"><span class="pixel-icon">></span> CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="pixel-text glitch" data-text="CODE.GAME.CREATE.">CODE.GAME.CREATE.</h1>
+                <p class="typewriter">Olá! Sou Miguel Maciel, estudante de ADS e desenvolvedor web iniciante. Este é o meu portfólio com uma pitada de estilo gamer, onde código e jogos se encontram.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="pixel-button"><i class="fas fa-gamepad"></i> VER PROJETOS</a>
+                    <a href="#contact" class="pixel-button"><i class="fas fa-terminal"></i> CONTATO</a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="avatar-level">NÍVEL 18</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title pixel-text">SOBRE MIM</h2>
+            <div class="about-content">
+                <div class="character-stats">
+                    <div class="stat">
+                        <div class="stat-label">NOME</div>
+                        <div class="stat-value">Miguel Maciel</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">CLASSE</div>
+                        <div class="stat-value">Desenvolvedor Web</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">NÍVEL</div>
+                        <div class="stat-value">18</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-label">XP</div>
+                        <div class="stat-value">2450/3000</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Olá! Meu nome é Miguel Maciel, tenho 18 anos e estou cursando Análise e Desenvolvimento de Sistemas. Tenho experiência com HTML, CSS, Figma, Design Responsivo, Python e JavaScript, e estou sempre buscando aprender mais sobre desenvolvimento web e tecnologia em geral.</p>
+                    <p>Meu objetivo é me tornar um desenvolvedor full-stack e contribuir para projetos inovadores que possam impactar positivamente a vida das pessoas.</p>
+                    <p>Além da programação, sou um entusiasta do mundo gamer, o que me inspira a criar interfaces creativas e experiências interativas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title pixel-text">MISSÕES CONCLUÍDAS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="pixel-corners"></div>
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Calculadora JavaScript</h3>
+                        <div class="project-difficulty">DIFICULDADE: <span class="difficulty-easy">FÁCIL</span></div>
+                        <p>Uma calculadora simples feita com HTML, CSS e JavaScript para praticar lógica de programação.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <a href="https://github.com/macielzxz/Calculadora-em-JavaScript-1" target="_blank" class="pixel-button">VER MISSÃO</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="pixel-corners"></div>
+                        <i class="fas fa-square-root-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Site de Matemática</h3>
+                        <div class="project-difficulty">DIFICULDADE: <span class="difficulty-medium">MÉDIO</span></div>
+                        <p>Landing page criada com HTML e CSS para a defesa do TCC sobre pesquisa de conceitos matemáticos.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">FIGMA</span>
+                        </div>
+                        <a href="https://macielzxz.github.io/site-de-matematica/" target="_blank" class="pixel-button">VER MISSÃO</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="pixel-corners"></div>
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Loja GM Alumínio</h3>
+                        <div class="project-difficulty">DIFICULDADE: <span class="difficulty-hard">DIFÍCIL</span></div>
+                        <p>Site para uma loja de alumínio, desenvolvido com HTML, CSS e JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <a href="https://macielzxz.github.io/Loja-GM-Alum-nio/" target="_blank" class="pixel-button">VER MISSÃO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title pixel-text">HABILIDADES</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;" data-skill="HTML"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;" data-skill="CSS"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;" data-skill="JavaScript"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;" data-skill="Python"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Design Responsivo</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;" data-skill="Design Responsivo"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Figma</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;" data-skill="Figma"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title pixel-text">CONTATO</h2>
+            <div class="contact-content">
+                <p>Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar um email ou me seguir nas redes sociais.</p>
+                
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dot red"></div>
+                        <div class="terminal-dot yellow"></div>
+                        <div class="terminal-dot green"></div>
+                        <span class="terminal-title">miguel@portfolio:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="command">cat contatos.txt</span></p>
+                        <p>> Email: <a href="mailto:miguel.maciel@academico.ifpb.edu.br">miguel.maciel@academico.ifpb.edu.br</a></p>
+                        <p>> LinkedIn: <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">/in/miguelmaciel</a></p>
+                        <p>> GitHub: <a href="https://github.com/macielzxz?tab=repositories" target="_blank">/macielzxz</a></p>
+                        <p>> Instagram: <a href="https://www.instagram.com/dev.maciel?igsh=MXhuZnc5bjhyOXZsNw==" target="_blank">@dev.maciel</a></p>
+                        <p class="cursor-line"><span class="command">_</span></p>
+                    </div>
+                </div>
+
+                <!-- Adicionando formas de contato -->
+                <div class="contact-methods">
+                    <h3 class="pixel-text">CONTATO DIRETO</h3>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/55839966708561" target="_blank" class="contact-btn whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp: 83 99667-08561</span>
+                        </a>
+                        <a href="https://www.instagram.com/dev.maciel?igsh=MXhuZnc5bjhyOXZsNw==" target="_blank" class="contact-btn instagram-btn">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram: @dev.maciel</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="mailto:miguel.maciel@academico.ifpb.edu.br" target="_blank" class="social-btn">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/macielzxz?tab=repositories" target="_blank" class="social-btn">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dev.maciel?igsh=MXhuZnc5bjhyOXZsNw==" target="_blank" class="social-btn">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo pixel-text">MIGUEL_MACIEL_DEV</div>
+            <p class="footer-text">Desenvolvido com <i class="fas fa-heart"></i> e <i class="fas fa-keyboard"></i></p>
+            <p class="footer-text">© 2023 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simular tela de loading
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadingScreen = document.getElementById('loadingScreen');
+            const progress = document.querySelector('.progress');
+            
+            // Simular progresso de carregamento
+            let width = 0;
+            const interval = setInterval(() => {
+                if (width >= 100) {
+                    clearInterval(interval);
+                    loadingScreen.classList.add('loaded');
+                } else {
+                    width += Math.random() * 15;
+                    if (width > 100) width = 100;
+                    progress.style.width = width + '%';
+                }
+            }, 200);
+            
+            // Criar partículas para o efeito de fundo
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 100;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Posição aleatória
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                
+                // Tamanho aleatório
+                const size = Math.random() * 3 + 1;
+                
+                // Duração aleatória da animação
+                const duration = Math.random() * 15 + 5;
+                
+                // Atraso aleatório
+                const delay = Math.random() * 5;
+                
+                particle.style.left = `${posX}vw`;
+                particle.style.top = `${posY}vh`;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.animationDuration = `${duration}s`;
+                particle.style.animationDelay = `${delay}s`;
+                
+                // Cor aleatória (entre azul, rosa e verde)
+                const colors = ['var(--neon-cyan)', 'var(--neon-pink)', 'var(--neon-green)', 'var(--neon-yellow)'];
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.background = randomColor;
+                
+                particlesContainer.appendChild(particle);
+            }
+            
+            // Efeito de digitação
+            const typewriter = document.querySelector('.typewriter');
+            if (typewriter) {
+                const text = typewriter.textContent;
+                typewriter.textContent = '';
+                let i = 0;
+                
+                function type() {
+                    if (i < text.length) {
+                        typewriter.textContent += text.charAt(i);
+                        i++;
+                        setTimeout(type, 50);
+                    }
+                }
+                
+                setTimeout(type, 2000);
+            }
+        });
+    </script>
+</body>
+</html>
